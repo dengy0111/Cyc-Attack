@@ -30,17 +30,18 @@ To achieve this objective, we propose **Cyc-Attack**, an adversarial attack fram
 
 ![Cyc-Attack Framework](figures/cyc_attack_framework.png)
 
+
 ### Adversarial Perturbations and Attack Results
 
 Using Cyc-Attack, we generate adversarial perturbations to the clean weather input, as illustrated below.
 
-[**View Adversarial Perturbations (PDF)**](figures/perturbations_marial.pdf)
+![Adversarial Perturbations](figures/perturbations_marial.png)
 
 These perturbations are designed to steer the downstream TC trajectory detected by TempestExtremes toward the predefined **Adversarial Target**, while modifying only the upstream input to GraphCast.
 
 The resulting end-to-end adversarial predictions are shown below. Cyc-Attack aims to minimize the deviation between the **Adversarial Prediction** and the predefined **Adversarial Target**.
 
-[**View End-to-End Attack Results — Target 1 (PDF)**](figures/end2end_cyc_attack_target1.pdf)
+![End-to-End Attack Results — Target 1](figures/end2end_cyc_attack_target1.png)
 
 In addition to the Hurricane Maria example, we evaluate Cyc-Attack on **nine additional tropical cyclone case studies** to assess its effectiveness across different forecasting scenarios.
 
@@ -52,4 +53,5 @@ Compared with **Target 1**, which introduces larger deviations from the original
 
 The corresponding end-to-end attack results are presented below.
 
-[**View End-to-End Attack Results — Target 2 (PDF)**](figures/end2end_cyc_attack_target2.pdf)
+![End-to-End Attack Results — Target 2](figures/end2end_cyc_attack_target2.png)
+
